@@ -1,0 +1,99 @@
+C:\Users\jpbra\documents\visual studio 2017\Projects\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.csprojResolveAssemblyReference.cache
+C:\Users\jpbra\documents\visual studio 2017\Projects\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.Properties.Resources.resources
+C:\Users\jpbra\documents\visual studio 2017\Projects\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.csproj.GenerateResource.Cache
+C:\Users\jpbra\documents\visual studio 2017\Projects\AmigoOculto\AmigoOculto\bin\Debug\Data.mdf
+C:\Users\jpbra\documents\visual studio 2017\Projects\AmigoOculto\AmigoOculto\bin\Debug\Data_log.ldf
+C:\Users\jpbra\documents\visual studio 2017\Projects\AmigoOculto\AmigoOculto\bin\Debug\AmigoOculto.exe.config
+C:\Users\jpbra\documents\visual studio 2017\Projects\AmigoOculto\AmigoOculto\bin\Debug\AmigoOculto.exe
+C:\Users\jpbra\documents\visual studio 2017\Projects\AmigoOculto\AmigoOculto\bin\Debug\AmigoOculto.pdb
+C:\Users\jpbra\documents\visual studio 2017\Projects\AmigoOculto\AmigoOculto\bin\Debug\EntityFramework.dll
+C:\Users\jpbra\documents\visual studio 2017\Projects\AmigoOculto\AmigoOculto\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jpbra\documents\visual studio 2017\Projects\AmigoOculto\AmigoOculto\bin\Debug\EntityFramework.xml
+C:\Users\jpbra\documents\visual studio 2017\Projects\AmigoOculto\AmigoOculto\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jpbra\documents\visual studio 2017\Projects\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.exe
+C:\Users\jpbra\documents\visual studio 2017\Projects\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.pdb
+C:\Users\jpbra\Documents\Visual Studio 2017\Projects\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.View.LoginView.resources
+C:\Users\jpbra\documents\visual studio 2017\Projects\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.View.SobreView.resources
+C:\Users\jpbra\documents\visual studio 2017\Projects\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.View.AjudaView.resources
+D:\Antigo\AmigoOculto\AmigoOculto\bin\Debug\AmigoOculto.exe.config
+D:\Antigo\AmigoOculto\AmigoOculto\bin\Debug\AmigoOculto.exe
+D:\Antigo\AmigoOculto\AmigoOculto\bin\Debug\AmigoOculto.pdb
+D:\Antigo\AmigoOculto\AmigoOculto\bin\Debug\EntityFramework.dll
+D:\Antigo\AmigoOculto\AmigoOculto\bin\Debug\EntityFramework.SqlServer.dll
+D:\Antigo\AmigoOculto\AmigoOculto\bin\Debug\EntityFramework.xml
+D:\Antigo\AmigoOculto\AmigoOculto\bin\Debug\EntityFramework.SqlServer.xml
+D:\Antigo\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.csprojResolveAssemblyReference.cache
+D:\Antigo\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.View.AjudaView.resources
+D:\Antigo\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.View.GrupoView.resources
+D:\Antigo\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.View.Grupo_UsuarioView.resources
+D:\Antigo\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.PrincipalView.resources
+D:\Antigo\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.Properties.Resources.resources
+D:\Antigo\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.View.CadastroView.resources
+D:\Antigo\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.View.HistoricoView.resources
+D:\Antigo\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.View.LoginView.resources
+D:\Antigo\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.View.ResultadoView.resources
+D:\Antigo\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.View.SobreView.resources
+D:\Antigo\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.csproj.GenerateResource.Cache
+D:\Antigo\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.exe
+D:\Antigo\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.pdb
+D:\Antigo\AmigoOculto\AmigoOculto\bin\Debug\Data.mdf
+D:\Antigo\AmigoOculto\AmigoOculto\bin\Debug\Data_log.ldf
+D:\Antigo\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.View.SorteioView.resources
+C:\Users\jpbra\documents\visual studio 2017\Projects\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.View.tmsPrincipalScreenView.resources
+F:\Trabalho\Modelo 2\AmigoOculto\AmigoOculto\bin\Debug\Data.mdf
+F:\Trabalho\Modelo 2\AmigoOculto\AmigoOculto\bin\Debug\Data_log.ldf
+F:\Trabalho\Modelo 2\AmigoOculto\AmigoOculto\bin\Debug\AmigoOculto.exe.config
+F:\Trabalho\Modelo 2\AmigoOculto\AmigoOculto\bin\Debug\AmigoOculto.exe
+F:\Trabalho\Modelo 2\AmigoOculto\AmigoOculto\bin\Debug\AmigoOculto.pdb
+F:\Trabalho\Modelo 2\AmigoOculto\AmigoOculto\bin\Debug\EntityFramework.dll
+F:\Trabalho\Modelo 2\AmigoOculto\AmigoOculto\bin\Debug\EntityFramework.SqlServer.dll
+F:\Trabalho\Modelo 2\AmigoOculto\AmigoOculto\bin\Debug\EntityFramework.xml
+F:\Trabalho\Modelo 2\AmigoOculto\AmigoOculto\bin\Debug\EntityFramework.SqlServer.xml
+F:\Trabalho\Modelo 2\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.csprojResolveAssemblyReference.cache
+F:\Trabalho\Modelo 2\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.View.AjudaView.resources
+F:\Trabalho\Modelo 2\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.View.tmsPrincipalScreenView.resources
+F:\Trabalho\Modelo 2\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.Properties.Resources.resources
+F:\Trabalho\Modelo 2\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.View.LoginView.resources
+F:\Trabalho\Modelo 2\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.View.SobreView.resources
+F:\Trabalho\Modelo 2\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.csproj.GenerateResource.Cache
+F:\Trabalho\Modelo 2\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.csproj.CoreCompileInputs.cache
+F:\Trabalho\Modelo 2\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.exe
+F:\Trabalho\Modelo 2\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.pdb
+C:\Users\Administrador\Desktop\AmigoOculto\AmigoOculto\bin\Debug\Data.mdf
+C:\Users\Administrador\Desktop\AmigoOculto\AmigoOculto\bin\Debug\Data_log.ldf
+C:\Users\Administrador\Desktop\AmigoOculto\AmigoOculto\bin\Debug\AmigoOculto.exe.config
+C:\Users\Administrador\Desktop\AmigoOculto\AmigoOculto\bin\Debug\AmigoOculto.exe
+C:\Users\Administrador\Desktop\AmigoOculto\AmigoOculto\bin\Debug\AmigoOculto.pdb
+C:\Users\Administrador\Desktop\AmigoOculto\AmigoOculto\bin\Debug\EntityFramework.dll
+C:\Users\Administrador\Desktop\AmigoOculto\AmigoOculto\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrador\Desktop\AmigoOculto\AmigoOculto\bin\Debug\EntityFramework.xml
+C:\Users\Administrador\Desktop\AmigoOculto\AmigoOculto\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrador\Desktop\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.View.AjudaView.resources
+C:\Users\Administrador\Desktop\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.View.tmsPrincipalScreenView.resources
+C:\Users\Administrador\Desktop\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.Properties.Resources.resources
+C:\Users\Administrador\Desktop\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.View.LoginView.resources
+C:\Users\Administrador\Desktop\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.View.SobreView.resources
+C:\Users\Administrador\Desktop\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.csproj.GenerateResource.Cache
+C:\Users\Administrador\Desktop\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.exe
+C:\Users\Administrador\Desktop\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.pdb
+C:\Users\jpbra\Desktop\AmigoOcultoHistorico\dia 29\AmigoOculto\AmigoOculto\bin\Debug\Data.mdf
+C:\Users\jpbra\Desktop\AmigoOcultoHistorico\dia 29\AmigoOculto\AmigoOculto\bin\Debug\Data_log.ldf
+C:\Users\jpbra\Desktop\AmigoOcultoHistorico\dia 29\AmigoOculto\AmigoOculto\bin\Debug\AmigoOculto.exe.config
+C:\Users\jpbra\Desktop\AmigoOcultoHistorico\dia 29\AmigoOculto\AmigoOculto\bin\Debug\AmigoOculto.exe
+C:\Users\jpbra\Desktop\AmigoOcultoHistorico\dia 29\AmigoOculto\AmigoOculto\bin\Debug\AmigoOculto.pdb
+C:\Users\jpbra\Desktop\AmigoOcultoHistorico\dia 29\AmigoOculto\AmigoOculto\bin\Debug\EntityFramework.dll
+C:\Users\jpbra\Desktop\AmigoOcultoHistorico\dia 29\AmigoOculto\AmigoOculto\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jpbra\Desktop\AmigoOcultoHistorico\dia 29\AmigoOculto\AmigoOculto\bin\Debug\EntityFramework.xml
+C:\Users\jpbra\Desktop\AmigoOcultoHistorico\dia 29\AmigoOculto\AmigoOculto\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jpbra\Desktop\AmigoOcultoHistorico\dia 29\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.csprojResolveAssemblyReference.cache
+C:\Users\jpbra\Desktop\AmigoOcultoHistorico\dia 29\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.View.AjudaView.resources
+C:\Users\jpbra\Desktop\AmigoOcultoHistorico\dia 29\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.View.tmsPrincipalScreenView.resources
+C:\Users\jpbra\Desktop\AmigoOcultoHistorico\dia 29\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.Properties.Resources.resources
+C:\Users\jpbra\Desktop\AmigoOcultoHistorico\dia 29\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.View.LoginView.resources
+C:\Users\jpbra\Desktop\AmigoOcultoHistorico\dia 29\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.View.SobreView.resources
+C:\Users\jpbra\Desktop\AmigoOcultoHistorico\dia 29\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.csproj.GenerateResource.Cache
+C:\Users\jpbra\Desktop\AmigoOcultoHistorico\dia 29\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.exe
+C:\Users\jpbra\Desktop\AmigoOcultoHistorico\dia 29\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.pdb
+C:\Users\jpbra\Desktop\AmigoOcultoHistorico\dia 29\AmigoOculto\AmigoOculto\obj\Debug\AmigoOculto.csproj.CoreCompileInputs.cache

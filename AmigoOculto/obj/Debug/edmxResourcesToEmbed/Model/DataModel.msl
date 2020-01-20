@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DataModelStoreContainer" CdmEntityContainer="DataEntities">
+    <EntitySetMapping Name="Grupo">
+      <EntityTypeMapping TypeName="DataModel.Grupo">
+        <MappingFragment StoreEntitySet="Grupo">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="QuantidadeUsuario" ColumnName="QuantidadeUsuario" />
+          <ScalarProperty Name="DttCriacao" ColumnName="DttCriacao" />
+          <ScalarProperty Name="Ativo" ColumnName="Ativo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Grupo_Usuario">
+      <EntityTypeMapping TypeName="DataModel.Grupo_Usuario">
+        <MappingFragment StoreEntitySet="Grupo_Usuario">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="id_Grupo" ColumnName="id_Grupo" />
+          <ScalarProperty Name="id_Usuario" ColumnName="id_Usuario" />
+          <ScalarProperty Name="dttCadastro" ColumnName="dttCadastro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Presente">
+      <EntityTypeMapping TypeName="DataModel.Presente">
+        <MappingFragment StoreEntitySet="Presente">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="id_Usuario" ColumnName="id_Usuario" />
+          <ScalarProperty Name="id_Grupo" ColumnName="id_Grupo" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+          <ScalarProperty Name="ValorMaximo" ColumnName="ValorMaximo" />
+          <ScalarProperty Name="ValorMinimo" ColumnName="ValorMinimo" />
+          <ScalarProperty Name="dttCadastro" ColumnName="dttCadastro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sorteio">
+      <EntityTypeMapping TypeName="DataModel.Sorteio">
+        <MappingFragment StoreEntitySet="Sorteio">
+          <ScalarProperty Name="dttRevelacao" ColumnName="dttRevelacao" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="id_Usuario_Origem" ColumnName="id_Usuario_Origem" />
+          <ScalarProperty Name="id_Usuario_Destino" ColumnName="id_Usuario_Destino" />
+          <ScalarProperty Name="id_Grupo" ColumnName="id_Grupo" />
+          <ScalarProperty Name="dttCadastro" ColumnName="dttCadastro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuario">
+      <EntityTypeMapping TypeName="DataModel.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="id_Grupo" ColumnName="id_Grupo" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="User" ColumnName="User" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="DttCriacao" ColumnName="DttCriacao" />
+          <ScalarProperty Name="NomeCmp" ColumnName="NomeCmp" />
+          <ScalarProperty Name="Ativo" ColumnName="Ativo" />
+          <ScalarProperty Name="Administrador" ColumnName="Administrador" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Historico">
+      <EntityTypeMapping TypeName="DataModel.Historico">
+        <MappingFragment StoreEntitySet="Historico">
+          <ScalarProperty Name="Administrador" ColumnName="Administrador" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Ativo" ColumnName="Ativo" />
+          <ScalarProperty Name="DataSaida" ColumnName="DataSaida" />
+          <ScalarProperty Name="DataEntrada" ColumnName="DataEntrada" />
+          <ScalarProperty Name="Senha" ColumnName="Senha" />
+          <ScalarProperty Name="User" ColumnName="User" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DataModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Grupo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nome" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="QuantidadeUsuario" Type="int" Nullable="false" />
+    <Property Name="DttCriacao" Type="datetime" Nullable="false" />
+    <Property Name="Ativo" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Grupo_Usuario">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_Grupo" Type="int" Nullable="false" />
+    <Property Name="id_Usuario" Type="int" Nullable="false" />
+    <Property Name="dttCadastro" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Historico">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="User" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Senha" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Administrador" Type="bit" Nullable="false" />
+    <Property Name="DataEntrada" Type="datetime" Nullable="false" />
+    <Property Name="DataSaida" Type="datetime" />
+    <Property Name="Ativo" Type="bit" Nullable="false" />
+    <Property Name="Nome" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Presente">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_Usuario" Type="int" Nullable="false" />
+    <Property Name="id_Grupo" Type="int" Nullable="false" />
+    <Property Name="Descricao" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ValorMaximo" Type="money" Nullable="false" />
+    <Property Name="ValorMinimo" Type="money" Nullable="false" />
+    <Property Name="dttCadastro" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Sorteio">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_Usuario_Origem" Type="int" Nullable="false" />
+    <Property Name="id_Usuario_Destino" Type="int" />
+    <Property Name="id_Grupo" Type="int" Nullable="false" />
+    <Property Name="dttCadastro" Type="datetime" Nullable="false" />
+    <Property Name="dttRevelacao" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="User" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="DttCriacao" Type="datetime" Nullable="false" />
+    <Property Name="NomeCmp" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ativo" Type="bit" Nullable="false" />
+    <Property Name="Administrador" Type="bit" Nullable="false" />
+    <Property Name="id_Grupo" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="DataModelStoreContainer">
+    <EntitySet Name="Grupo" EntityType="Self.Grupo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Grupo_Usuario" EntityType="Self.Grupo_Usuario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Historico" EntityType="Self.Historico" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Presente" EntityType="Self.Presente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sorteio" EntityType="Self.Sorteio" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DataModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Grupo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="QuantidadeUsuario" Type="Int32" Nullable="false" />
+    <Property Name="DttCriacao" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Ativo" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Grupo_Usuario">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_Grupo" Type="Int32" Nullable="false" />
+    <Property Name="id_Usuario" Type="Int32" Nullable="false" />
+    <Property Name="dttCadastro" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="Presente">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_Usuario" Type="Int32" Nullable="false" />
+    <Property Name="id_Grupo" Type="Int32" Nullable="false" />
+    <Property Name="Descricao" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ValorMaximo" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="ValorMinimo" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="dttCadastro" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="Sorteio">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_Usuario_Origem" Type="Int32" Nullable="false" />
+    <Property Name="id_Usuario_Destino" Type="Int32" />
+    <Property Name="id_Grupo" Type="Int32" Nullable="false" />
+    <Property Name="dttCadastro" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="dttRevelacao" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="User" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DttCriacao" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="NomeCmp" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Ativo" Type="Boolean" Nullable="false" />
+    <Property Name="Administrador" Type="Boolean" Nullable="false" />
+    <Property Name="id_Grupo" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="DataEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Grupo" EntityType="Self.Grupo" />
+    <EntitySet Name="Grupo_Usuario" EntityType="Self.Grupo_Usuario" />
+    <EntitySet Name="Presente" EntityType="Self.Presente" />
+    <EntitySet Name="Sorteio" EntityType="Self.Sorteio" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" />
+    <EntitySet Name="Historico" EntityType="DataModel.Historico" />
+  </EntityContainer>
+  <EntityType Name="Historico">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="User" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Senha" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DataEntrada" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DataSaida" Type="DateTime" Precision="3" />
+    <Property Name="Ativo" Type="Boolean" Nullable="false" />
+    <Property Name="Nome" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Administrador" Type="Boolean" Nullable="false" />
+  </EntityType>
+</Schema>
